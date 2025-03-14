@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="shortcut icon" href="./assets/10608883.png" type="image/x-icon">
+    <link rel="stylesheet" href="Add.css" />
+</head>
+<body>
+
+
+    <header>
+        <h1 id="Add">Add New Product</h1>
+        <a href="products.html">Back to Home</a>
+      </header>
+
+      
+    <div id="add-product-form">
+        <h2>Add New Product</h2>
+        <form id="product-form">
+          <input
+            type="text" class="inp"
+            id="product-name"
+            placeholder="Product Name"
+            required
+          />
+  
+          <input class="inp"
+            type="text"
+            id="product-price"
+            placeholder="Product Price"
+            required
+          />
+  
+          <input
+            type="text" class="inp"
+            id="product-image"
+            placeholder="Image URL"
+            required
+          />
+  
+          <button type="submit">Add Product</button>
+        </form>
+      </div>
+
+      <script type="module" src="app.js"></script>
+</body>
+</html>

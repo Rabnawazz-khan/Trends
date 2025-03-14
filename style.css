@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(./assets/360.jpg);
+  }
+
+
+  #heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 160px;
+    color: yellow;
+  }
+
+
+.login-container{
+   height: 50vh;
+   width: 65vh;
+   justify-content: center;
+   margin-top: 150px;
+   margin-left: 490px;
+   align-items: center;
+   background-color: lightseagreen;
+   border-radius: 15px;
+   cursor: pointer;
+   box-shadow: 2px 2px 5px #3c5c72, -2px -2px 5px #3c5c72;
+   border-radius: 8px;
+   backdrop-filter: blur(8px);
+   padding: 10px 10px;
+}
+
+
+
+#email {
+  width: 95%;
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-block: 4px;
+  color: #000;
+  border-color: blue;
+}
+
+
+#password {
+    width: 95%;
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-block: 40px;
+    color: #000;
+    border-color: blue; 
+}
+
+
+
+
+.btn {
+  height: 30px;
+  width: 410px;
+  border-radius: 6px;
+  margin-block: 10px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+}
+
+
+form .signup-link{
+  text-align: center;
+}
+form .signup-link a{
+  color: black;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+
+
+
+#heading1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 130px;
+  color: yellow;
+}
+
+
+.auth-container{
+  height: 60vh;
+  width: 65vh;
+  justify-content: center;
+  margin-top: 130px;
+  margin-left: 490px;
+  align-items: center;
+  background-color: lightseagreen;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #3c5c72, -2px -2px 5px #3c5c72;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  padding: 10px 10px;
+}
+
+
+#name{
+  width: 95%;
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-block: 10px;
+  color: #000;
+  border-color: blue; 
+}
+
+
+#email {
+  width: 95%;
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-block: 25px;
+  color: #000;
+  border-color: blue;
+}
+
+
+#password {
+    width: 95%;
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-block: 10px;
+    color: #000;
+    border-color: blue; 
+}
+
+
+
+
+.btn1 {
+  height: 30px;
+  width: 410px;
+  border-radius: 6px;
+  margin-block: 20px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+}
+
+
+
+form .login-link-link{
+  text-align: center;
+}
+form .login-link-link a{
+  margin-left: 3px;
+  color: black;
+  text-decoration: none;
+}
+form .login-link a:hover{
+  text-decoration: underline;
+}
+
+
+
